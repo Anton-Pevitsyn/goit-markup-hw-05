@@ -13,6 +13,7 @@
   --ferst-icon-color: #afb1b8;
   --background-icon-color: #f5f4fa;
   --footer-background-icon-color: #44454e;
+  --specialization-title-background-color: rgba(47, 48, 58, 0.8);
 }
 /* 
     цвет оснвного текста + адрес #757575;
@@ -277,6 +278,30 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.specialization-list .item {
+  position: relative;
+}
+
+.specialization-list .item-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background: var(--specialization-title-background-color);
+}
+
+.specialization-list .item-title {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
 }
 
 /*specialization section style */
