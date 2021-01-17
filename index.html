@@ -39,7 +39,7 @@
     <section class="title-section">
       <!--order section-->
       <h1 class="meam-title">эффективные решения<br />для вашего бизнеса</h1>
-      <a class="link" href="#">Заказать услугу</a>
+      <a class="link" data-modal-open href="#">Заказать услугу</a> 
       <!--/order section-->
     </section>
     <section class="about-us-section">
@@ -267,5 +267,13 @@
       </div>
       </div>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="close-button">
+        <svg><use href="./img/icon/close.svg#close" width=30 height=30></use></svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
